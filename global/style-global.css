@@ -11,6 +11,10 @@ body {
   background-color: var(--color-background);
 }
 
+.sgPurpleBG {
+  background-color: var(--color-background);
+}
+
 .sgQueuesContainer {
   top: 50%;
   left: 50%;
@@ -29,7 +33,7 @@ body {
   overflow-y: scroll;
 }
 
-.sgContentCard{
+.sgContentCard {
   max-width: 540px;
 }
 
@@ -91,4 +95,59 @@ body {
 .sgMarginVertical_32 {
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+
+.sgMarginRight_4 {
+  margin-right: 4px;
+}
+
+.sgMarginRight_8 {
+  margin-right: 8px;
+}
+
+.sgMarginRight_16 {
+  margin-right: 16px;
+}
+
+.sgMarginRight_32 {
+  margin-right: 32px;
+}
+
+
+.sgMarginLeft_4 {
+  margin-left: 4px;
+}
+
+.sgMarginLeft_8 {
+  margin-left: 8px;
+}
+
+.sgMarginLeft_16 {
+  margin-left: 16px;
+}
+
+.sgMarginLeft_32 {
+  margin-left: 32px;
+}
+
+
+.sgMarginHorizontal_4 {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.sgMarginHorizontal {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.sgMarginHorizontal_16 {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.sgMarginHorizontal_32 {
+  margin-right: 32px;
+  margin-left: 32px;
 }
