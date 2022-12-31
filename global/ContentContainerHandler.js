@@ -23,8 +23,8 @@ function getContentObj(index) {
 
     const contentObj_1 = {
         title: "Drifters",
-        season: "Season 2",
-        episode: "Episode 1/24",
+        season: "Season 1/1",
+        episode: "Episode 1/12",
         website: "Website 9anime",
         src: "https://m.media-amazon.com/images/M/MV5BYmQ2YmU0YzEtYWE5OS00MjU4LThmZDQtZGNhNTE5Y2MwODg1XkEyXkFqcGdeQXVyMTUwMjI0MTI@._V1_.jpg",
         desc: "Various historical fighters are summoned from across time to wage war on each other, with the fate of the world in the balance."
@@ -32,7 +32,7 @@ function getContentObj(index) {
 
     const contentObj_2 = {
         title: "VINLAND SAGA",
-        season: "Season 1",
+        season: "Season 1/1",
         episode: "Episode 1/24",
         website: "Website 9anime",
         src: "https://flxt.tmsimg.com/assets/p17127060_b_v9_aa.jpg",
@@ -41,15 +41,14 @@ function getContentObj(index) {
 
     const contentObj_3 = {
         title: "Castlevania",
-        season: "Season 1/4",
-        episode: "Episode 1/24",
+        season: "Season 4/4",
+        episode: "Episode 10/10",
         website: "Website 9anime",
         src: "https://pics.filmaffinity.com/castlevania-175848376-large.jpg",
         desc: "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself. Inspired by the classic video games."
     }
 
     const contentArray = [contentObj_1, contentObj_2, contentObj_3]
-
     return contentArray[index]
 }
 
