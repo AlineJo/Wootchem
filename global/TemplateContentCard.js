@@ -1,11 +1,11 @@
 export function createContentCard(contentObj) {
 
     const _CC_title = contentObj.title
-    const _CC_season = contentObj.season
-    const _CC_episode = contentObj.episode
-    const _CC_website = contentObj.website
-    const _CC_src = contentObj.src
-    const _CC_desc = contentObj.desc
+    const _CC_season = "Season " + contentObj.season_current + "/" + contentObj.season_count
+    const _CC_episode = "Episode " + contentObj.episode_current + "/" + contentObj.episode_count
+    const _CC_website = "Website " + contentObj.website
+    const _CC_src = contentObj.img_src
+    const _CC_desc = contentObj.description
 
     const mContentCard = document.createElement("div")
     mContentCard.id = "idContentCard"
@@ -20,7 +20,7 @@ export function createContentCard(contentObj) {
     const mAnimeImg = document.createElement("img")
     mAnimeImg.id = "idAnimeImg"
     mAnimeImg.src = _CC_src
-    mAnimeImg.classList.add("img-fluid", "rounded-start")
+    mAnimeImg.classList.add("img-fluid", "rounded-start", "sgImgMaxHeight")
 
     mColDiv_1.appendChild(mAnimeImg)
 
@@ -38,7 +38,7 @@ export function createContentCard(contentObj) {
 
     const mAnimeDescription = document.createElement("p")
     mAnimeDescription.id = "idAnimeDescription"
-    mAnimeDescription.classList.add("card-text", "sgMarginTop_32")
+    mAnimeDescription.classList.add("card-text", "sgMarginTop_32", "sgTextSizeSmall")
     mAnimeDescription.innerText = _CC_desc
 
     const mButtonsRow = document.createElement("div")
