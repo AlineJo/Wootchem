@@ -15,6 +15,14 @@ body {
   background-color: var(--color-background);
 }
 
+.sgImgMaxHeight{
+  height: 250px;
+}
+
+.sgTextSizeSmall{
+  font-size: small;
+}
+
 .sgQueuesContainer {
   top: 50%;
   left: 50%;
@@ -34,7 +42,7 @@ body {
 }
 
 .sgContentCard {
-  max-width: 540px;
+  max-width: 600px;
 }
 
 
@@ -52,25 +60,22 @@ body {
   margin-top: 16px;
 }
 
-
 .sgMarginTop_32 {
   margin-top: 32px;
 }
+
 
 .sgMarginBottom_4 {
   margin-bottom: 4px;
 }
 
-
 .sgMarginBottom_8 {
   margin-bottom: 8px;
 }
 
-
 .sgMarginBottom_16 {
   margin-bottom: 16px;
 }
-
 
 .sgMarginBottom_32 {
   margin-bottom: 32px;
@@ -150,4 +155,25 @@ body {
 .sgMarginHorizontal_32 {
   margin-right: 32px;
   margin-left: 32px;
+}
+
+
+.sgPaddingVertical_4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.sgPaddingVertical_8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.sgPaddingVertical_16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.sgPaddingVertical_32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
