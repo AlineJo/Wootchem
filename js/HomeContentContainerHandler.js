@@ -7,6 +7,7 @@ const _ContentContainerNow = document.getElementById("idContentContainerNow")
 const _ContentContainerDone = document.getElementById("idContentContainerDone")
 
 initContent()
+initClickables()
 
 function initContent() {
     fetchAllContent()
@@ -42,5 +43,13 @@ function populateContent(contentObj) {
     
 }
 
+function initClickables(){
+    const queueTitleToWatch = document.getElementById("idQueueTitleToWatch")
+    const queueTitleNow = document.getElementById("idQueueTitleNow")
+    const queueTitleDone = document.getElementById("idQueueTitleDone")
+
+    
+
+}
 
 
