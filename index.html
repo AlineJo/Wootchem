@@ -20,27 +20,63 @@
     <!-- QueueContainerToWatch -->
     <div class="d-flex justify-content-center align-items-center">
 
-      <!-- jumbotron main container -->
+      <!-- jumbotron main container -> toWatch -->
       <div class="row align-items-md-stretch">
 
         <!-- col -->
         <div class="col m-4">
           <!-- round div -->
-          <div class="h-100 p-5 text-white rounded-3 sgJumbotronQueueBG">
+          <div class="h-100 py-5 px-4 text-white rounded-3 sgJumbotronQueueBG">
             <h2 class="text-center">To Watch Queue</h2>
 
             <!-- ContentContainerToWatch -->
             <div id="idContentContainerToWatch" class="card-deck sgContentContainer sgMarginTop_32">
-
-
-
-
-
-
-
             </div>
             <!-- ContentContainerToWatch -->
 
+          </div>
+          <!--/ round div -->
+        </div>
+        <!--/ col -->
+      </div>
+      <!--/ jumbotron main container -->
+
+
+      <!-- jumbotron main container -> now -->
+      <div class="row align-items-md-stretch">
+
+        <!-- col -->
+        <div class="col m-4">
+          <!-- round div -->
+          <div class="h-100 py-5 px-4 text-white rounded-3 sgJumbotronQueueBG">
+            <h2 class="text-center">Watching Queue</h2>
+
+            <!-- ContentContainerToWatch -->
+            <div id="idContentContainerNow" class="card-deck sgContentContainer sgMarginTop_32">
+            </div>
+            <!-- ContentContainerToWatch -->
+
+          </div>
+          <!--/ round div -->
+        </div>
+        <!--/ col -->
+      </div>
+      <!--/ jumbotron main container -->
+
+
+      <!-- jumbotron main container -> done -->
+      <div class="row align-items-md-stretch">
+
+        <!-- col -->
+        <div class="col m-4">
+          <!-- round div -->
+          <div class="h-100 py-5 px-4 text-white rounded-3 sgJumbotronQueueBG">
+            <h2 class="text-center">Done Queue</h2>
+
+            <!-- ContentContainerToWatch -->
+            <div id="idContentContainerDone" class="card-deck sgContentContainer sgMarginTop_32">
+            </div>
+            <!-- ContentContainerToWatch -->
 
           </div>
           <!--/ round div -->
@@ -65,7 +101,7 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 
-  <script type="module" src="./global/ContentContainerHandler.js"></script>
+  <script type="module" src="./js/HomeContentContainerHandler.js"></script>
 </body>
 
 </html>
