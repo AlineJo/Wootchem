@@ -1,6 +1,6 @@
 
 import { createContentCard } from "../global/TemplateContentCard.js"
-import { fetchAllContent } from "./fetchAllQueues.js"
+import { fetchAllContent } from "./fetchAllContent.js"
 
 const _ContentContainerToWatch = document.getElementById("idContentContainerToWatch")
 const _ContentContainerNow = document.getElementById("idContentContainerNow")
