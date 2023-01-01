@@ -1,7 +1,7 @@
 import {API_URL_WATCHING_NOW, HTTP_METHOD_GET_NO_CACHE } from "../global/API_URLs.js";
-import { fetchContentWatchingNowHandler } from "./HomeContentContainerHandler.js";
+import { fetchAllContentHandler } from "./HomeContentContainerHandler.js";
 
-export function fetchContentWatchingNow() {
+export function fetchAllContent() {
     let content = []
 
     fetch(API_URL_WATCHING_NOW, HTTP_METHOD_GET_NO_CACHE)
@@ -13,11 +13,11 @@ export function fetchContentWatchingNow() {
                 //after converting, wait for the promise data and then handel it
                 .then(data => {
                     content = data
-                    fetchContentWatchingNowHandler(content)
+                    fetchAllContentHandler(content)
                 })
                 .catch(error => {
                     content = [{errorMsg: error}]
-                    fetchContentWatchingNowHandler(content)
+                    fetchAllContentHandler(content)
                 });
 
         });
