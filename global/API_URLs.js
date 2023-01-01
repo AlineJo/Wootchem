@@ -23,5 +23,5 @@ const STAG_DOMAIN = "staging-Wootchem";
 
 const domain = PROD_DOMAIN;
 
-//api-urls 
-export const API_URL_WATCHING_NOW = 'http://localhost/expprojects/' + domain + 'php/get-watching-now.php';
+//api-urls                           
+export const API_URL_WATCHING_NOW = 'http://localhost/expprojects/' + domain + '/php/get-watching-now.php';
