@@ -48,8 +48,6 @@ function initClickables(){
     const queueTitleNow = document.getElementById("idQueueTitleNow")
     const queueTitleDone = document.getElementById("idQueueTitleDone")
 
-    
-
 }
 
 
