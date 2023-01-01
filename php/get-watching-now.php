@@ -1,5 +1,5 @@
 <?php
-include('../conn.php');
+include('../global/conn.php');
 
 
 $queryAcceptedOrders = "SELECT * FROM view_content";
