@@ -28,26 +28,35 @@ function populateContent(contentObj) {
     }
 
 
-    switch(contentObj.status){
-        case "to_watch" : _ContentContainerToWatch.appendChild(newContentCard);
-        break;
+    switch (contentObj.status) {
+        case "to_watch": _ContentContainerToWatch.appendChild(newContentCard);
+            break;
 
-        case "now" : _ContentContainerNow.appendChild(newContentCard);
-        break;
+        case "now": _ContentContainerNow.appendChild(newContentCard);
+            break;
 
-        case "done" : _ContentContainerDone.appendChild(newContentCard);
-        break;
+        case "done": _ContentContainerDone.appendChild(newContentCard);
+            break;
 
     }
 
-    
+
 }
 
-function initClickables(){
+function initClickables() {
     const queueTitleToWatch = document.getElementById("idQueueTitleToWatch")
     const queueTitleNow = document.getElementById("idQueueTitleNow")
     const queueTitleDone = document.getElementById("idQueueTitleDone")
 
+    queueTitleToWatch.onclick = function () { toggleModal() }
+    queueTitleNow.onclick = function () { toggleModal() }
+    queueTitleDone.onclick = function () { toggleModal() }
+}
+
+function toggleModal() {
+    $(function () {
+        $('#idInsertNewContentModal').modal('toggle');
+    });
 }
 
 
