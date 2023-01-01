@@ -1,6 +1,6 @@
 
 import { createContentCard } from "../global/TemplateContentCard.js"
-import { fetchContentWatchingNow } from "./fetchWatchingNow.js"
+import { fetchAllContent } from "./fetchAllQueues.js"
 
 const _ContentContainerToWatch = document.getElementById("idContentContainerToWatch")
 const _ContentContainerNow = document.getElementById("idContentContainerNow")
@@ -9,14 +9,10 @@ const _ContentContainerDone = document.getElementById("idContentContainerDone")
 initContent()
 
 function initContent() {
-
-    fetchContentWatchingNow()
-
-
-
+    fetchAllContent()
 }
 
-export function fetchContentWatchingNowHandler(content) {
+export function fetchAllContentHandler(content) {
 
     content.forEach(c => {
         populateContent(c)
