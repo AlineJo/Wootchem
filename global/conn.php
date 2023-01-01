@@ -1,11 +1,9 @@
 <?php
-//db_name >>> stg: ""; ||| Prod: "";
-//db_user >>> stg: ""; ||| Prod: "";
-//db_pass >>> stg: "";    ||| Prod: "";
 
-$PROD_DB_NAME = "";
-$PROD_DB_USER = "";
-$PROD_DB_PASSWORD = " ";
+
+$PROD_DB_NAME = "wootchem";
+$PROD_DB_USER = "root";
+$PROD_DB_PASSWORD = "";
 
 $STAG_DB_NAME = "";
 $STAG_DB_USER = "";
