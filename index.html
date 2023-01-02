@@ -125,35 +125,60 @@
 
 
           <form>
-            <!--                         
-                        id                   
-                        title
-                        website
-                        description
-                        website_link  
-                        img_src                     
-                        status                     
-                        season_current                      
-                        season_count
-                        episode_current                      
-                        episode_count -->
+            <!--                                          
+                       # title
+                       # website
+                       # description
+                       # website_link  
+                       # img_src                     
+                       # status                     
+                       # season_current                      
+                       # season_count
+                       # episode_current                      
+                       # episode_count -->
+
+
+            <div class="d-flex mb-3 g-3 justify-content-between">
+              <div class="col-auto">
+                <label for="idFormTitle" class="form-label">Title</label>
+                <input id="idFormTitle" type="text" class="form-control" placeholder="Naruto">
+              </div>
+
+              <div class="col-auto">
+                <label for="idFormWebsite" class="form-label">Website</label>
+                <input id="idFormWebsite" type="text" class="form-control" placeholder="9anime">
+              </div>
+            </div>
+
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <label for="idFormDescription">Description</label>
+              <textarea id="idFormDescription" class="form-control" placeholder="the next big thing"></textarea>
             </div>
+
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="idFormWebsiteLink" class="form-label">Website Link</label>
+              <input id="idFormWebsiteLink" type="text" class="form-control" placeholder="www.9anime.com/ep/1">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+            <div class="mb-3">
+              <label for="idFormImgSrcLink" class="form-label">Image src</label>
+              <input id="idFormImgSrcLink" type="text" class="form-control" placeholder="www.9anime.com/img">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <div class="d-flex mb-3 g-3 justify-content-between">
+              <div class="col-auto">
+                <label for="idFormEpsiode" class="form-label">Episode</label>
+                <input id="idFormEpsiode" type="number" class="form-control" placeholder="12">
+              </div>
+
+              <div class="col-auto">
+                <label for="idFormSeason" class="form-label">Season</label>
+                <input id="idFormSeason" type="number" class="form-control" placeholder="4">
+              
+              </div>
+            </div>
+
           </form>
-
-
 
 
         </div>
