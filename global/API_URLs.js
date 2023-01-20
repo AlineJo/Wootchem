@@ -25,3 +25,4 @@ const domain = PROD_DOMAIN;
 
 //api-urls                           
 export const API_URL_ALL_CONTENT = 'http://localhost/expprojects/' + domain + '/php/get-all-content.php';
+export const API_URL_ADD_CONTENT_ITEM = 'http://localhost/expprojects/' + domain + '/php/post-add-content.php';

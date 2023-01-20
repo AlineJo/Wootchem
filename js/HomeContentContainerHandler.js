@@ -1,6 +1,7 @@
 
 import { createContentCard } from "../global/TemplateContentCard.js"
-import { fetchAllContent } from "./fetchAllContent.js"
+import { fetchAllContent } from "./FetchAllContent.js"
+import { fetchPostAddContent } from "./AddNewContentItem.js"
 
 const _ContentContainerToWatch = document.getElementById("idContentContainerToWatch")
 const _ContentContainerNow = document.getElementById("idContentContainerNow")
@@ -47,10 +48,16 @@ function initClickables() {
     const queueTitleToWatch = document.getElementById("idQueueTitleToWatch")
     const queueTitleNow = document.getElementById("idQueueTitleNow")
     const queueTitleDone = document.getElementById("idQueueTitleDone")
+    
+    const btnAddContent = document.getElementById("idBtnAddContent")
 
     queueTitleToWatch.onclick = function () { toggleModal() }
     queueTitleNow.onclick = function () { toggleModal() }
     queueTitleDone.onclick = function () { toggleModal() }
+    queueTitleDone.onclick = function () { toggleModal() }
+
+    btnAddContent.onclick = function () { fetchPostAddContent() }
+
 }
 
 function toggleModal() {

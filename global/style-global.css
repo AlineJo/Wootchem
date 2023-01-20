@@ -157,7 +157,6 @@ body {
   margin-left: 32px;
 }
 
-
 .sgPaddingVertical_4 {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -176,4 +175,8 @@ body {
 .sgPaddingVertical_32 {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.sgErrorText{
+  color: red;
 }
